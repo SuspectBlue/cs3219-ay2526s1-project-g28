@@ -28,7 +28,7 @@ export interface Param { name: string; type: string }
 export interface Signature { params: Param[]; returnType: string }
 
 export type Difficulty = 'Easy' | 'Medium' | 'Hard';
-export type Topic = 'Strings' | 'Arrays' | 'Linked List' | 'Heaps' | 'Hashmap' | 'Trees' | 'Graphs' | 'Dynamic Programming';
+export type Topic = 'Strings' | 'Arrays' | 'Linked List' | 'Heaps' | 'Hashmap' | 'Greedy' | 'Graphs' | 'Dynamic Programming';
 
 export interface Question {
   id: string;
@@ -52,7 +52,7 @@ export type QuestionFormModalProps = {
 };
 
 const TOPIC_OPTIONS: Topic[] = [
-  'Strings','Arrays','Linked List','Heaps','Hashmap','Trees','Graphs','Dynamic Programming'
+  'Strings','Arrays','Linked List','Heaps','Hashmap','Greedy','Graphs','Dynamic Programming'
 ];
 
 const emptyExample: Example = { input: '', output: '', explanation: '', image: undefined };

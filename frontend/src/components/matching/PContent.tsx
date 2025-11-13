@@ -16,7 +16,7 @@ const ALL_TOPICS = [
   "Hashmap",
   "Arrays",
   "Graphs",
-  "Trees",
+  "Greedy",
 ] as const;
 
 const DIFFICULTIES = ["Easy", "Medium", "Hard"] as const;

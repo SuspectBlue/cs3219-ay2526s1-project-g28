@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
 const difficulties = ["Easy", "Medium", "Hard"] as const;
-const topics = ["Arrays", "Strings", "Graphs", "Trees", "DP", "Greedy"] as const;
+const topics = ["Arrays", "Strings", "Graphs", "Greedy", "DP", "Greedy"] as const;
 
 export default function MatchingPage() {
   const [difficulty, setDifficulty] = useState<(typeof difficulties)[number]>("Medium");

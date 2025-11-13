@@ -22,7 +22,7 @@ const TOPICS = [
   "Linked List",
   "Heaps",
   "Hashmap",
-  "Trees",
+  "Greedy",
   "Graphs",
   "Dynamic Programming",
 ];

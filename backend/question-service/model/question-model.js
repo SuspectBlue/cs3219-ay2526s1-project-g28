@@ -89,7 +89,7 @@ const QuestionsModelSchema = new Schema({
           "Linked List",
           "Heaps",
           "Hashmap",
-          "Trees",
+          "Greedy",
           "Graphs",
           "Dynamic Programming",
         ],
